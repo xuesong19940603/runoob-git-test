@@ -1,0 +1,122 @@
+.index-banner {
+    position: relative;
+    display: block;
+    height: 460px;
+}
+
+.index-banner-box {
+    height: 460px;
+}
+
+@-webkit-keyframes fadeins {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fadeins {
+    animation-name: fadein;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+}
+
+.index-banner-li {
+    position: absolute;
+    height: 460px;
+    overflow: hidden;
+    float: left;
+}
+
+.index-banner-btu {
+    width: 210px;
+    height: 4px;
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    margin-top: -44px;
+}
+
+.index-banner-btu .btn {
+    width: 45px;
+    height: 4px;
+    float: left;
+    margin-left: 37.5px;
+    background: #888A9A;
+    border-radius: 4px;
+}
+
+.index-banner-btu .btn:nth-child(1) {
+    margin-left: 0;
+}
+
+.imgs {
+    width: 50px;
+    height: 64px;
+    position: absolute;
+    z-index: 10;
+    margin-top: -440px;
+    margin-left: 74px;
+}
+
+.content {
+    width: 100%;
+    display: inline-block;
+}
+
+.centen_ct {
+    width: 100%;
+    height: 190px;
+    position: absolute;
+    z-index: 6;
+    margin-top: 237px;
+}
+
+.centen_ctLi{
+    width: 1200px;
+    height: 190px;
+    margin:auto;
+}
+
+.centen_ctLi_title{
+    height: 50px;
+    line-height:50px;
+    font-size:36px;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+}
+
+.centen_ctLi_content{
+    height: 57px;
+    margin-top: 30px;
+}
+
+.DownloadNow{
+    width:200px;
+    height:57px;
+    background:rgba(255,255,255,1);
+    border-radius:8px;
+    font-size:22px;
+    font-weight:500;
+    color:rgba(99,116,190,1);
+    cursor: pointer;
+}
+
+.DownloadNow:focus { outline: none; }
+
+.centen_ctLi_tishi{
+    width:72px;
+    height:27px;
+    font-size:18px;
+    font-weight:500;
+    color:rgba(255,255,255,1);
+    line-height:27px;
+    border-bottom: 1px solid #FFFFFF;
+    margin-top:17px;
+}
+
